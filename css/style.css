@@ -586,6 +586,9 @@ body {
   float: left;
   clear: none;
 }
+.career-interview-slider-button-container {
+  flex-wrap: nowrap !important;
+}
 @media only screen and (min-width: 1024px) {
   .career-interview-slider-button-container {
     position: absolute;
