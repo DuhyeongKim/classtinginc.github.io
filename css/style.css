@@ -37,6 +37,12 @@
   width: 100%;
   padding: 10px 0;
 }
+#page .btn-green-filled {
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0,200,150,0.25);
+  background-color: #00c896;
+  color: #fff;
+}
 .article-date,
 .article-category-link {
   text-decoration: none;
@@ -187,6 +193,16 @@ body {
 }
 #page .btn-green {
   width: 80%;
+}
+#page .btn-green-filled {
+  min-width: 183px;
+  padding: 15px 12px;
+}
+#page .btn-green-filled:hover {
+  color: rgba(255,255,255,0.6);
+}
+#page .btn-green-filled i {
+  opacity: 0.6;
 }
 #page .guide {
   text-align: center;
@@ -389,11 +405,269 @@ body {
   }
 }
 .careers-cover {
-  background-image: url("images/ct_careers.jpg");
+  background-image: url("images/recruit-img-top.jpg");
+}
+.career-container-fluid {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 240px 80px 0;
+}
+.career-title {
+  margin-bottom: 80px;
+  font-weight: normal !important;
+}
+@media only screen and (min-width: 1024px) {
+  .career-title {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .career-title {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .career-title {
+    font-size: 28px;
+  }
+}
+.career-section-title {
+  font-weight: 300 !important;
+}
+@media only screen and (min-width: 1024px) {
+  .career-section-title {
+    font-size: 36px !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .career-section-title {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .career-section-title {
+    font-size: 22px !important;
+  }
+}
+.banner-title-color {
+  color: #3f4653 !important;
+}
+.career-banner-desc {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(63,70,83,0.8) !important;
+}
+.ct-culture {
+  background-color: #f5f8f9 !important;
 }
 .ct-culture span {
   display: block;
   margin-bottom: 40px;
+}
+.ct-culture img {
+  margin: auto;
+}
+@media only screen and (min-width: 1024px) {
+  .ct-culture img {
+    width: 106px;
+    height: 85px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .ct-culture img {
+    width: 106px;
+    height: 85px;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .ct-culture img {
+    width: 91px;
+    height: 73px;
+  }
+}
+.highlight-title {
+  font-size: 18px;
+  font-weight: bold !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #00c896 !important;
+  border-bottom: 2px solid #00c896;
+  padding-bottom: 2px;
+}
+.bulletin-number-green {
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #00c896;
+}
+.bulletin-section h2 {
+  text-align: left !important;
+  line-height: 1.39;
+  margin-top: 13px;
+  margin-bottom: 34px;
+  font-weight: normal !important;
+}
+.bulletin-section .col-lg-6,
+.bulletin-section .col-md-6,
+.bulletin-section .col-sm-6 {
+  padding-left: 0 !important;
+  padding-right: 16px !important;
+  margin: 20px 0;
+}
+.bulletin-section h4 {
+  margin: 10px 0;
+}
+.bulletin-section p {
+  color: rgba(63,70,83,0.7) !important;
+  line-height: 1.79;
+}
+@media only screen and (min-width: 1024px) {
+  .bulletin-section {
+    margin: 96px auto;
+    padding: 48px 36px !important;
+    width: 1140px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .bulletin-section {
+    margin: 64px 0;
+    padding: 48px 24px !important;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .bulletin-section {
+    margin: 48px 0;
+    padding: 48px 16px !important;
+  }
+}
+.career-image-container {
+  padding: 0 !important;
+}
+.career-image-full {
+  display: block;
+}
+@media only screen and (max-width: 1023px) {
+  .career-image-full {
+    display: none !important;
+  }
+}
+.career-image-mobile {
+  display: none !important;
+}
+@media only screen and (max-width: 1023px) {
+  .career-image-mobile {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .career-interview {
+    padding: 0 !important;
+    margin-top: -14px;
+  }
+}
+.glide-container {
+  position: relative;
+  background-color: #f3f6f6;
+  padding: 96px 0 !important;
+}
+.career-interview-slider {
+  list-style: none;
+  overflow: hidden;
+  padding: 0 !important;
+}
+.career-interview-slide {
+  height: 100%;
+  float: left;
+  clear: none;
+}
+@media only screen and (min-width: 1024px) {
+  .career-interview-slider-button-container {
+    position: absolute;
+    bottom: 40px;
+    right: 120px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .career-interview-slider-button-container {
+    position: absolute;
+    bottom: 40px;
+    width: 130px;
+    margin-left: -65px;
+    margin-right: -65px;
+    right: 50%;
+    left: 50%;
+  }
+}
+.career-interview-title {
+  line-height: 1.42;
+  color: #3f4653 !important;
+  font-weight: 300 !important;
+  font-size: 38px !important;
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .career-interview-title {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .career-interview-title {
+    font-size: 22px !important;
+  }
+}
+.career-interview-slider-button {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: #979797;
+  cursor: pointer;
+}
+.career-interview-slider-button:focus {
+  outline: 0;
+}
+.career-interview-slide-index {
+  margin: 3px 8px;
+  color: rgba(61,70,84,0.6);
+  font-size: 14px;
+}
+.career-interview-desc,
+.career-interview-desc-footer {
+  text-align: center;
+  color: rgba(61,70,84,0.6) !important;
+  line-height: 1.72;
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .career-interview-desc,
+  .career-interview-desc-footer {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .career-interview-desc,
+  .career-interview-desc-footer {
+    font-size: 14px !important;
+  }
+}
+.career-interview-desc:before {
+  content: url("../images/recruit-ic-quotes-1.png");
+}
+.career-interview-desc:after {
+  content: url("../images/recruit-ic-quotes-2.png");
+}
+.job-posting h2 {
+  text-align: left !important;
+  line-height: 1.39;
+  margin-top: 13px;
+  margin-bottom: 34px;
+  font-weight: normal !important;
+  padding: 0 16px;
+}
+.job-posting h6 {
+  padding: 0 16px;
 }
 .how-we-work .row {
   margin-top: 48px;
@@ -500,6 +774,9 @@ body {
 }
 .position-faq a:hover {
   text-decoration: none;
+}
+.resume-btn {
+  margin-top: 32px;
 }
 .products-cover {
   background-image: url("images/ct_products.jpg");
@@ -670,6 +947,11 @@ body {
 }
 .find-members a:hover {
   text-decoration: none;
+}
+@media only screen and (max-width: 599px) {
+  .find-members h4 {
+    font-size: 16px;
+  }
 }
 .icon {
   display: block;
